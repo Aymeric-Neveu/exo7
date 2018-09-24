@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Exo7</title>
+</head>
+<body>
+  <form>
+    <fieldset class="carre">
+        <legend class="carre">Votre identité</legend>
+        <ol>
+          <li><label for="nom">1. Nom :</label></li>
+          <li><input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="30" /></li>
+        </form>
+        <form method="post">
+          <li><label for="Prénom">2. Prénom :</label></li>
+          <li><input type="text" name="prénom" id="prénom" placeholder="Prénom" size="30" maxlength="30" /></li>
+        </form>
+        <form method="post">
+          <li><label for="Adresse mail">3. Adresse mail :</label></li>
+          <li><input type="text" name="adresse mail" id="adresse mail" placeholder="Adresse mail" size="30" maxlength="30" /></li>
+        </fieldset>
+      </ol>
+      </form>
+      <form method="post">
+        <fieldset class="carre1">
+            <legend class="legend1">Adresse de livraison</legend>
+            <ol>
+            <li><label for="ameliorer">1. Adresse : </label><br /></li>
+            <li><textarea name="adresse" id="adresse"></textarea></li>
+          </form>
+          <form method="post">
+            <label for="Code postale">2. Code postale : </label>
+            <input type="text" name="code postale" id="code postale" placeholder="Code postale" size="30" maxlength="30" />
+          </form>
+          <form method="post">
+            <li><label for="Ville">3. Ville : </label></li>
+            <li><input type="text" name="ville" id="ville" placeholder="Ville" size="30" maxlength="30" /><li>
+            </ol>
+          </fieldset>
+        </form>
+        <fieldset class="carre2">
+            <legend class="legend2">Informations de règlement</legend>
+            <form method="post">
+              <ol>
+              <li><p>
+                1. Type de carte bancaire :<br /></li>
+                <li><input type="radio" name="type" value="VISA" id="CB" /> <label for="VISA">VISA</label><br /></li>
+                <li><input type="radio" name="type" value="Mastercard" id="CB" /> <label for="Mastercard">Mastercard</label><br /></li>
+              </p>
+            </form>
+            <form method="post">
+              <li><label for="Numéro de carte">2. Numéro de carte : </label></li>
+            </li><input type="text" name="numéro de carte" id="numéro de carte" placeholder="Numéro de carte" size="30" maxlength="30" /></li>
+            </form>
+            <form method="post">
+              <li><label for="Code de sécurité">3. Code de sécurité : </label></li>
+              <li><input type="text" name="code de sécurité" id="code de sécurité" placeholder="code de sécurité" size="30" maxlength="30" /><li>
+            </form>
+            <form method="post">
+              <li><label for="Nom du titulaire">4. Nom du titulaire : </label></li>
+              <li><input type="text" name="nom du titulaire" id="nom du titulaire" placeholder="Nom du titulaire" size="30" maxlength="30" /></li>
+            </fieldset>
+            <input type="button" name="nom" value="J'achète">
+          </form>
+        </body>
+        </html>
